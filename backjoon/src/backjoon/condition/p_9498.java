@@ -1,14 +1,20 @@
 package backjoon.condition;
 
+import java.util.Scanner;
+
 public class p_9498 {
+ 
 	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
 		
-		int[][] arr = {
-			{1,2,3},
-			{4,5,6},
-			{7,8,9}
-		};
+		int A = in.nextInt();
+		in.close();
 		
-		
+		if(A>=90) System.out.println("A");
+		else if(A>=80) System.out.println("B");
+		else if (A>=70) System.out.println("C");
+		else if(A>=60) System.out.println("D");
+		else System.out.println("F");
 	}
+ 
 }
