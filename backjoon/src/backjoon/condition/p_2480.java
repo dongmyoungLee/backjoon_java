@@ -20,8 +20,5 @@ public class p_2480 {
 		}else{
 			System.out.print((Math.max(a, Math.max(b, c))*100));
 		}
-		
-		
-		
 	}
 }
